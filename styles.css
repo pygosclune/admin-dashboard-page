@@ -31,6 +31,10 @@ body {
     0px 18px 23px rgba(0,0,0,0.1);
 }
 
+.sidebar > p {
+    cursor: pointer;
+}
+
 .container {
     width: 100vw;
     height: 100vh;
@@ -54,6 +58,7 @@ input {
     margin-top: 1rem;
     margin-left: 3rem;
     box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    cursor: pointer;
 }
 
 .header {
@@ -69,7 +74,9 @@ input {
     margin-left: 2rem;
     grid-column: 1/2;
     grid-row: 1/4;
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
 }
 
 #icon {
@@ -99,6 +106,7 @@ input {
     text-align: center;
     padding: 1.5rem;
     box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    cursor: pointer;
 }
 
 .other {
@@ -116,4 +124,5 @@ input {
     text-align: center;
     padding: 1.5rem;
     box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    cursor: pointer;
 }
